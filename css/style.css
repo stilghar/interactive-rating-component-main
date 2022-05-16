@@ -1,0 +1,113 @@
+body {
+    background-color: #141519;
+    font-family: 'Inter';
+}
+
+#wrap-container {
+    background-color: #1A212B;
+    width: 402px;
+    height: 420px;
+    margin-top: 10%;
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#star-icon {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #2A2D36;
+    border-radius: 27px;
+    padding: 6px;
+    height: 30px;
+    width: 30px;
+    padding: 19px;
+
+}
+
+h1 {
+    color: #EEF3F3;
+    margin-top: 35px;
+    margin-left: 38px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 38px;
+    margin-right: 38px;
+    color: #959BA7;
+    font-size: 16px;
+}
+
+div#rate {
+    margin-top: 25;
+    margin-left: 38px;
+}
+
+input[type="radio"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #262F38;
+    -webkit-appearance: none; /*to disable the default appearance of radio button*/
+    -moz-appearance: none;
+  }
+
+
+  input[type="radio"]:hover { /*no need, if you don't disable default appearance*/
+    outline: none; /*to remove the square border on focus*/
+    background-color: #7C8897;
+    cursor: pointer;
+  }
+
+  input[type="radio"]:hover ~ span { /*no need, if you don't disable default appearance*/
+    color: #FFF7DF;
+    cursor: pointer;
+    
+  }
+
+  input[type="radio"]:checked { /*no need, if you don't disable default appearance*/
+    background-color: #FD7610;
+  }
+
+  input[type="radio"]:checked ~ span {
+    color: white;
+    cursor: pointer;
+  }
+
+  label span:first-of-type{
+    position: relative;
+    left: -38px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #848C97;
+  }
+
+  label span {
+    position: relative;
+    top: -19px;
+  }
+
+  div #rate {
+      margin-left: 10px;
+  }
+  
+
+#rate-btn {
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    border-radius: 12px;
+    background-color:  #FD7610;
+    color: #FFFFFF;
+    font-weight: 800;
+    border-style: none;
+}
+
+#rate-btn:hover {
+    background-color: #FFFFFF;
+    color: #FD7610;
+    cursor: pointer;
+    font-weight: 800;
+}
